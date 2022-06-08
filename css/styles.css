@@ -10493,7 +10493,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #202020;
+  background-color: #2B7BEF;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -10511,7 +10511,7 @@ p {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 3.5rem;
+  height: 1.5rem;
   margin-left: 1rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10519,15 +10519,16 @@ p {
   font-size: 0.95rem;
   color: #fff;
   letter-spacing: 0.0625em;
+  font-weight: 600;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #2B7BEF;
+  color: #161616;
 }
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
     border: none;
     background-color: #20202045;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
@@ -10537,15 +10538,17 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 4.5rem;
+    height: 1.8rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
-    background-color: #202020;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    background-color: #2B7BEF;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 3.5rem;
+    height: 1.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
